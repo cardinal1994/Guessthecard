@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "540964209836",
+    "firebase_url": "https://guessthecard-21065.firebaseio.com",
+    "project_id": "guessthecard-21065",
+    "storage_bucket": "guessthecard-21065.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540964209836:android:a7d2644945eb7171",
+        "android_client_info": {
+          "package_name": "kh.nure.artem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540964209836-8rlc6qbl8cn93ejpupo8tro57vjkufjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMVGpOCgMngAsZpgrqHoAWfOZYL8bj1Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540964209836-8rlc6qbl8cn93ejpupo8tro57vjkufjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-3364325249134194~1501738721"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540964209836:android:65b23470d40c1955",
+        "android_client_info": {
+          "package_name": "kh.nure.artem.guessthecard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540964209836-86tqpcnrb17sfj0k08vtml41fejm173o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kh.nure.artem.guessthecard",
+            "certificate_hash": "c5ce22e5d99c8fb58c2c4dc626a167bfcf3a3f91"
+          }
+        },
+        {
+          "client_id": "540964209836-8rlc6qbl8cn93ejpupo8tro57vjkufjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMVGpOCgMngAsZpgrqHoAWfOZYL8bj1Sk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540964209836-8rlc6qbl8cn93ejpupo8tro57vjkufjn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

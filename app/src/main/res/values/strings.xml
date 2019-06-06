@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Predict the card</string>
+    <string name="MenuStart">Start</string>
+    <string name="menusettings">Settings</string>
+    <string name="menu_game_rules">Game Rules</string>
+    <string name="menu_exit">Exit</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3364325249134194/7492432005</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="settingsmusic">Music</string>
+    <string name="settingssound">Sounds</string>
+    <string name="MusicOn">On</string>
+    <string name="SoundOn">On </string>
+    <string name="score">Score:</string>
+    <string name="zero">0</string>
+    <string name="sorry">Sorry</string>
+    <string name="higher">Higher</string>
+    <string name="equals">Equals</string>
+    <string name="lower">Lower</string>
+    <string name="new_game">NEW GAME</string>
+    <string name="yes">Yes!</string>
+    <string name="no">No!</string>
+    <string name="textRules">In this game, you must predict the size of the card
+        (it will be higher, lower or equal) by clicking on the appropriate button.
+        There are 52 unique playing cards in the deck.</string>
+    <string name="_51">51</string>
+</resources>

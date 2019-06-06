@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="MenuColor">#D8C101</color>
+
+    <color name="black_overlay">#212121</color>
+    <color name="OnGreenColor">#3CD841</color>
+    <color name="OffRedColor">#CF0C00</color>
+    <color name="gameButtonsColor">#E4FFFFFF</color>
+    <color name="textCardCount">#212121</color>
+    <color name="buttonNewGame">#1565C0</color>
+    <color name="rulesWhiteColor">#F5F5F5</color>
+    <color name="iconBlueColor">#1A237E</color>
+</resources>

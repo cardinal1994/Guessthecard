@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgame"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/hideNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:onClick="HideNavigation" />
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@mipmap/backbutton"
+        android:onClick="onClickButtonBack"
+        android:contentDescription="@string/sorry"
+        android:soundEffectsEnabled="false"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35sp"
+        >
+
+        <TextView
+            android:id="@+id/scoreText"
+            style="@style/scoreStyle"
+            android:text="@string/score"
+            android:layout_marginEnd="5dp"/>
+
+
+        <TextView
+            android:id="@+id/score"
+            style="@style/scoreStyle"
+            android:text="@string/zero" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/TVcountOfCards"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/cardcount"
+        android:gravity="center"
+        android:text="@string/_51"
+        android:textColor="@color/textCardCount"
+        android:textSize="25sp" />
+
+
+    <ImageView
+        android:id="@+id/imageCard"
+        android:layout_width="240dp"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/sorry" />
+
+
+    <Button
+        android:id="@+id/buttonHigher"
+        style="@style/GameButtons"
+        android:layout_marginEnd="15dp"
+        android:layout_toStartOf="@id/buttonEquals"
+        android:onClick="onClickButtonHigher"
+        android:text="@string/higher" />
+
+
+    <Button
+        android:id="@+id/buttonEquals"
+        style="@style/GameButtons"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClickButtonEquals"
+        android:text="@string/equals" />
+
+
+    <Button
+        android:id="@+id/buttonLower"
+        style="@style/GameButtons"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/buttonEquals"
+        android:onClick="onClickButtonLower"
+        android:text="@string/lower" />
+
+    <Button
+        android:id="@+id/newGame"
+        style="@style/GameButtons"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/shape_blue"
+        android:onClick="onClickButtonNewGame"
+        android:text="@string/new_game" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

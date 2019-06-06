@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundapp"
+    tools:context=".MainActivity"
+
+    >
+
+    <TextView
+        android:id="@+id/hideNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:onClick="HideNavigation"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        >
+        <TextView
+
+            android:id="@+id/textViewStart"
+            android:text="@string/MenuStart"
+            style="@style/MenuStyle"
+            android:onClick="onClickButtonStart"
+            />
+
+        <TextView
+            android:id="@+id/textViewSettings"
+            android:text="@string/menusettings"
+            style="@style/MenuStyle"
+            android:onClick="onClickSettings"/>
+
+        <TextView
+            android:id="@+id/textViewGameRules"
+            android:text="@string/menu_game_rules"
+            style="@style/MenuStyle"
+            android:onClick="onClickButtonGameRules"
+            />
+
+        <TextView
+            android:id="@+id/textViewExit"
+            android:text="@string/menu_exit"
+            style="@style/MenuStyle"
+            android:onClick="onClickButtonExit"
+            />
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>
